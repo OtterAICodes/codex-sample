@@ -3,19 +3,27 @@ TEST clone 2
 
 ## Getting Started
 
-First, run the development server:
+Run the development server with Docker Compose:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+docker compose up --build
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+Source files are bind-mounted into the container, so edits under `app/` are reflected automatically by the Next.js dev server.
+
+To stop the environment:
+
+```bash
+docker compose down
+```
+
+If you want to run it without Docker, use:
+
+```bash
+npm run dev
+```
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 

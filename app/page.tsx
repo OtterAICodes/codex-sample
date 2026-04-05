@@ -217,6 +217,7 @@ export default function Home() {
 
               <a
                 href="#contact"
+                style={{ color: "#fff" }}
                 className="inline-flex items-center rounded-full border-2 border-[#221b44] bg-[#221b44] px-5 py-2 text-sm font-bold text-white transition-transform duration-200 hover:-translate-y-0.5 hover:bg-[#3a2f6f]"
               >
                 Contact
@@ -251,7 +252,7 @@ export default function Home() {
                 </a>
                 <a
                   href="#contact"
-                  className="inline-flex items-center rounded-full border-2 border-[#221b44] bg-white px-6 py-3 text-sm font-black text-[#221b44] transition-transform duration-200 hover:-translate-y-1 hover:bg-[#fff3b8]"
+                  className="inline-flex items-center rounded-full border-2 border-[#221b44] bg-[#221b44] px-6 py-3 text-sm font-black text-white transition-transform duration-200 hover:-translate-y-1 hover:bg-[#3a2f6f]"
                 >
                   お問い合わせ
                 </a>
@@ -369,7 +370,7 @@ export default function Home() {
           />
           <a
             href="#contact"
-            className="inline-flex w-fit items-center rounded-full border-2 border-[#221b44] bg-white px-5 py-3 text-sm font-black text-[#221b44] transition-transform duration-200 hover:-translate-y-1 hover:bg-[#fff3b8]"
+            className="inline-flex w-fit items-center rounded-full border-2 border-[#221b44] bg-[#221b44] px-5 py-3 text-sm font-black text-white transition-transform duration-200 hover:-translate-y-1 hover:bg-[#3a2f6f]"
           >
             制作の相談をする
           </a>
